@@ -11,6 +11,6 @@ if (!$conexaoBD) {
     exit;
 }
 
-// Opcional: definir charset para evitar problemas com acentos
+
 mysqli_set_charset($ligaBD, "utf8");
 ?>
